@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A52365D7151A2E6A00C37DF0 /* ArticleListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A52365D6151A2E6A00C37DF0 /* ArticleListTableViewController.m */; };
 		A5895807150A4007005EEFE3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5895806150A4007005EEFE3 /* UIKit.framework */; };
 		A5895809150A4007005EEFE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5895808150A4007005EEFE3 /* Foundation.framework */; };
 		A589580B150A4007005EEFE3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A589580A150A4007005EEFE3 /* CoreGraphics.framework */; };
@@ -18,6 +19,18 @@
 		A5895821150A4008005EEFE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5895808150A4007005EEFE3 /* Foundation.framework */; };
 		A5895829150A4008005EEFE3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5895827150A4008005EEFE3 /* InfoPlist.strings */; };
 		A589582C150A4008005EEFE3 /* srcReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A589582B150A4008005EEFE3 /* srcReaderTests.m */; };
+		A589583A150A4195005EEFE3 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5895839150A4195005EEFE3 /* RootViewController.m */; };
+		A589583E150A42BB005EEFE3 /* Skins_S01E01.srt in Resources */ = {isa = PBXBuildFile; fileRef = A589583D150A42BB005EEFE3 /* Skins_S01E01.srt */; };
+		A5DF22DC15123F790068157F /* Skins.US.S01E01.txt in Resources */ = {isa = PBXBuildFile; fileRef = A5DF22D215123F790068157F /* Skins.US.S01E01.txt */; };
+		A5DF22DD15123F790068157F /* Skins.US.S01E02.txt in Resources */ = {isa = PBXBuildFile; fileRef = A5DF22D315123F790068157F /* Skins.US.S01E02.txt */; };
+		A5DF22DE15123F790068157F /* Skins.US.S01E03.txt in Resources */ = {isa = PBXBuildFile; fileRef = A5DF22D415123F790068157F /* Skins.US.S01E03.txt */; };
+		A5DF22DF15123F790068157F /* skins.us.s01e04.txt in Resources */ = {isa = PBXBuildFile; fileRef = A5DF22D515123F790068157F /* skins.us.s01e04.txt */; };
+		A5DF22E015123F790068157F /* skins.us.s01e05.txt in Resources */ = {isa = PBXBuildFile; fileRef = A5DF22D615123F790068157F /* skins.us.s01e05.txt */; };
+		A5DF22E115123F790068157F /* Skins.US.S01E06.txt in Resources */ = {isa = PBXBuildFile; fileRef = A5DF22D715123F790068157F /* Skins.US.S01E06.txt */; };
+		A5DF22E215123F790068157F /* skins.us.s01e07.txt in Resources */ = {isa = PBXBuildFile; fileRef = A5DF22D815123F790068157F /* skins.us.s01e07.txt */; };
+		A5DF22E315123F790068157F /* skins.us.s01e08.txt in Resources */ = {isa = PBXBuildFile; fileRef = A5DF22D915123F790068157F /* skins.us.s01e08.txt */; };
+		A5DF22E415123F790068157F /* Skins.US.S01E09.txt in Resources */ = {isa = PBXBuildFile; fileRef = A5DF22DA15123F790068157F /* Skins.US.S01E09.txt */; };
+		A5DF22E515123F790068157F /* skins.us.s01e10.txt in Resources */ = {isa = PBXBuildFile; fileRef = A5DF22DB15123F790068157F /* skins.us.s01e10.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,22 +44,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A52365D5151A2E6A00C37DF0 /* ArticleListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleListTableViewController.h; sourceTree = "<group>"; };
+		A52365D6151A2E6A00C37DF0 /* ArticleListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleListTableViewController.m; sourceTree = "<group>"; };
 		A5895802150A4007005EEFE3 /* srcReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = srcReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5895806150A4007005EEFE3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A5895808150A4007005EEFE3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A589580A150A4007005EEFE3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A589580E150A4007005EEFE3 /* srcReader-Info.plist */ = {isa = PBXFileReference; path = "srcReader-Info.plist"; sourceTree = "<group>"; };
+		A589580E150A4007005EEFE3 /* srcReader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "srcReader-Info.plist"; sourceTree = "<group>"; };
 		A5895810150A4007005EEFE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A5895812150A4007005EEFE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A5895814150A4007005EEFE3 /* srcReader-Prefix.pch */ = {isa = PBXFileReference; path = "srcReader-Prefix.pch"; sourceTree = "<group>"; };
-		A5895815150A4007005EEFE3 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		A5895814150A4007005EEFE3 /* srcReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "srcReader-Prefix.pch"; sourceTree = "<group>"; };
+		A5895815150A4007005EEFE3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A5895816150A4007005EEFE3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A589581D150A4008005EEFE3 /* srcReaderTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = srcReaderTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A589581E150A4008005EEFE3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		A5895826150A4008005EEFE3 /* srcReaderTests-Info.plist */ = {isa = PBXFileReference; path = "srcReaderTests-Info.plist"; sourceTree = "<group>"; };
+		A5895826150A4008005EEFE3 /* srcReaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "srcReaderTests-Info.plist"; sourceTree = "<group>"; };
 		A5895828150A4008005EEFE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A589582A150A4008005EEFE3 /* srcReaderTests.h */ = {isa = PBXFileReference; path = srcReaderTests.h; sourceTree = "<group>"; };
+		A589582A150A4008005EEFE3 /* srcReaderTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = srcReaderTests.h; sourceTree = "<group>"; };
 		A589582B150A4008005EEFE3 /* srcReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = srcReaderTests.m; sourceTree = "<group>"; };
+		A5895838150A4195005EEFE3 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		A5895839150A4195005EEFE3 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		A589583D150A42BB005EEFE3 /* Skins_S01E01.srt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Skins_S01E01.srt; sourceTree = "<group>"; };
+		A5DF22D215123F790068157F /* Skins.US.S01E01.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Skins.US.S01E01.txt; sourceTree = "<group>"; };
+		A5DF22D315123F790068157F /* Skins.US.S01E02.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Skins.US.S01E02.txt; sourceTree = "<group>"; };
+		A5DF22D415123F790068157F /* Skins.US.S01E03.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Skins.US.S01E03.txt; sourceTree = "<group>"; };
+		A5DF22D515123F790068157F /* skins.us.s01e04.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = skins.us.s01e04.txt; sourceTree = "<group>"; };
+		A5DF22D615123F790068157F /* skins.us.s01e05.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = skins.us.s01e05.txt; sourceTree = "<group>"; };
+		A5DF22D715123F790068157F /* Skins.US.S01E06.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Skins.US.S01E06.txt; sourceTree = "<group>"; };
+		A5DF22D815123F790068157F /* skins.us.s01e07.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = skins.us.s01e07.txt; sourceTree = "<group>"; };
+		A5DF22D915123F790068157F /* skins.us.s01e08.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = skins.us.s01e08.txt; sourceTree = "<group>"; };
+		A5DF22DA15123F790068157F /* Skins.US.S01E09.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Skins.US.S01E09.txt; sourceTree = "<group>"; };
+		A5DF22DB15123F790068157F /* skins.us.s01e10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = skins.us.s01e10.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +104,8 @@
 		A58957F7150A4007005EEFE3 = {
 			isa = PBXGroup;
 			children = (
+				A5895835150A409D005EEFE3 /* class */,
+				A5895836150A409D005EEFE3 /* resource */,
 				A589580C150A4007005EEFE3 /* srcReader */,
 				A5895824150A4008005EEFE3 /* srcReaderTests */,
 				A5895805150A4007005EEFE3 /* Frameworks */,
@@ -141,6 +171,43 @@
 				A5895827150A4008005EEFE3 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5895835150A409D005EEFE3 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				A5895837150A40B1005EEFE3 /* UI */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+		A5895836150A409D005EEFE3 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				A5DF22D215123F790068157F /* Skins.US.S01E01.txt */,
+				A5DF22D315123F790068157F /* Skins.US.S01E02.txt */,
+				A5DF22D415123F790068157F /* Skins.US.S01E03.txt */,
+				A5DF22D515123F790068157F /* skins.us.s01e04.txt */,
+				A5DF22D615123F790068157F /* skins.us.s01e05.txt */,
+				A5DF22D715123F790068157F /* Skins.US.S01E06.txt */,
+				A5DF22D815123F790068157F /* skins.us.s01e07.txt */,
+				A5DF22D915123F790068157F /* skins.us.s01e08.txt */,
+				A5DF22DA15123F790068157F /* Skins.US.S01E09.txt */,
+				A5DF22DB15123F790068157F /* skins.us.s01e10.txt */,
+				A589583D150A42BB005EEFE3 /* Skins_S01E01.srt */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		A5895837150A40B1005EEFE3 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A5895838150A4195005EEFE3 /* RootViewController.h */,
+				A5895839150A4195005EEFE3 /* RootViewController.m */,
+				A52365D5151A2E6A00C37DF0 /* ArticleListTableViewController.h */,
+				A52365D6151A2E6A00C37DF0 /* ArticleListTableViewController.m */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +281,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5895811150A4007005EEFE3 /* InfoPlist.strings in Resources */,
+				A589583E150A42BB005EEFE3 /* Skins_S01E01.srt in Resources */,
+				A5DF22DC15123F790068157F /* Skins.US.S01E01.txt in Resources */,
+				A5DF22DD15123F790068157F /* Skins.US.S01E02.txt in Resources */,
+				A5DF22DE15123F790068157F /* Skins.US.S01E03.txt in Resources */,
+				A5DF22DF15123F790068157F /* skins.us.s01e04.txt in Resources */,
+				A5DF22E015123F790068157F /* skins.us.s01e05.txt in Resources */,
+				A5DF22E115123F790068157F /* Skins.US.S01E06.txt in Resources */,
+				A5DF22E215123F790068157F /* skins.us.s01e07.txt in Resources */,
+				A5DF22E315123F790068157F /* skins.us.s01e08.txt in Resources */,
+				A5DF22E415123F790068157F /* Skins.US.S01E09.txt in Resources */,
+				A5DF22E515123F790068157F /* skins.us.s01e10.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +328,8 @@
 			files = (
 				A5895813150A4007005EEFE3 /* main.m in Sources */,
 				A5895817150A4007005EEFE3 /* AppDelegate.m in Sources */,
+				A589583A150A4195005EEFE3 /* RootViewController.m in Sources */,
+				A52365D7151A2E6A00C37DF0 /* ArticleListTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,8 +376,9 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Alex Chen (MPXJJWV5LP)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -312,6 +393,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6D2C7974-864D-45D0-ADB6-9B8647FC25D2";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -322,8 +405,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Lovely Baby Technologies Inc";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -332,6 +415,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2B98AFE7-4F83-453C-ABA0-56025C9ED99F";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -413,6 +497,7 @@
 				A5895831150A4008005EEFE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5895832150A4008005EEFE3 /* Build configuration list for PBXNativeTarget "srcReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +506,7 @@
 				A5895834150A4008005EEFE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

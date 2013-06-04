@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "RootViewController.h"
+#import "ArticleListTableViewController.h"
 @implementation AppDelegate
 
 @synthesize window = _window;
@@ -17,6 +18,14 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+//    RootViewController *rootViewController=[[RootViewController alloc] init];
+//    self.window.rootViewController=rootViewController;
+//    [rootViewController autorelease];
+    ArticleListTableViewController *list=[[ArticleListTableViewController alloc] init];
+    UINavigationController *nav=[[UINavigationController alloc] initWithRootViewController:list];
+    self.window.rootViewController=nav;
+    [nav release];
+    [list release];
     [self.window makeKeyAndVisible];
     return YES;
 }
